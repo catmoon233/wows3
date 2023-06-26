@@ -1,0 +1,56 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.model.new": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"wing": {
+					"rotation": {
+						"0.0": {
+							"vector": {
+								"vector": [0, 0, 0]
+							}
+						},
+						"1.0": {
+							"vector": {
+								"vector": [0, 0, -30]
+							}
+						},
+						"2.0": {
+							"vector": {
+								"vector": [0, 0, 0]
+							}
+						}
+					}
+				},
+				"wing1": {
+					"rotation": {
+						"0.0": {
+							"vector": {
+								"vector": [0, 0, 0]
+							}
+						},
+						"1.0": {
+							"vector": {
+								"vector": [0, 0, 30]
+							}
+						},
+						"2.0": {
+							"vector": {
+								"vector": [0, 0, -2.5]
+							}
+						}
+					}
+				},
+				"wingtip1": {
+					"rotation": {
+						"vector": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	}
+}

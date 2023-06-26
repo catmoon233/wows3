@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "E",
+    "keyBindingName": "bbdk",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "WplopenajAnXiaAnJianShi"
+    }
+  }
+}

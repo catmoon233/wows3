@@ -1,0 +1,9 @@
+{
+  "_fv": 43,
+  "_type": "command",
+  "definition": {
+    "commandName": "sxxixuebl",
+    "permissionLevel": "4",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"entity\"><field name=\"name\">name</field><field name=\"type\">entities</field><statement name=\"args\"><block type=\"number_default\"><field name=\"name\">sas12121</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">Sxxixuebllc</field></block></statement></block></statement></block></next></block><block type=\"number_min_max\" x=\"142\" y=\"281\"><field name=\"name\">name</field><field name=\"min\">0</field><field name=\"max\">100</field></block></xml>"
+  }
+}

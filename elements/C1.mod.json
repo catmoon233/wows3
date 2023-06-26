@@ -1,0 +1,147 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 512,
+    "height": 512,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "sss.png",
+          "use1Xscale": false,
+          "x": -559,
+          "y": -262
+        }
+      },
+      {
+        "type": "entitymodel",
+        "data": {
+          "entityModel": {
+            "name": "Uimx"
+          },
+          "scale": 70,
+          "rotationX": 0,
+          "followMouseMovement": true,
+          "x": 339,
+          "y": 197
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_st1",
+          "image": "st1.png",
+          "hoveredImage": "st21.png",
+          "onClick": {
+            "name": "C1lc3"
+          },
+          "x": 26,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_kai_shi_you_xi",
+          "text": {
+            "fixedValue": "开始游戏"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 51,
+          "y": 63
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_st11",
+          "image": "st1.png",
+          "hoveredImage": "st21.png",
+          "x": 26,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_she_zhi",
+          "text": {
+            "fixedValue": "设置"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 56,
+          "y": 108
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_st12",
+          "image": "st1.png",
+          "hoveredImage": "st21.png",
+          "x": 26,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_shuo_ming",
+          "text": {
+            "fixedValue": "说明"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 56,
+          "y": 153
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_st13",
+          "image": "st1.png",
+          "hoveredImage": "st21.png",
+          "x": 26,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_tui_chu_you_xi",
+          "text": {
+            "fixedValue": "退出游戏"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 51,
+          "y": 198
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 10,
+      "sy": 10,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

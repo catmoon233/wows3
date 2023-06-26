@@ -1,0 +1,4724 @@
+{
+  "mod_elements": [
+    {
+      "name": "Atset",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atset",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/AtsetProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/ui"
+    },
+    {
+      "name": "Ui",
+      "type": "overlay",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/client/screens/UiOverlay.java"
+        ]
+      },
+      "path": "~/ui"
+    },
+    {
+      "name": "Eui",
+      "type": "gui",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/client/gui/EuiScreen.java",
+          "src/main/java/net/mcreator/wows/world/inventory/EuiMenu.java"
+        ]
+      },
+      "path": "~/ui"
+    },
+    {
+      "name": "EuionAnXiaAnJianShi",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "euion_an_xia_an_jian_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuionAnXiaAnJianShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "Euion",
+      "type": "keybind",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "euion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/network/EuionMessage.java"
+        ]
+      },
+      "path": "~/ui"
+    },
+    {
+      "name": "Sa",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/guia/uis"
+    },
+    {
+      "name": "Jb1",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jb_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/item/Jb1Item.java",
+          "src/main/resources/assets/wows/models/item/jb_1.json"
+        ]
+      },
+      "path": "~/guia"
+    },
+    {
+      "name": "Jb1DangWuPinZaiBeiBaoZhongMeiKeFaSheng",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jb_1_dang_wu_pin_zai_bei_bao_zhong_mei_ke_fa_sheng",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Jb1DangWuPinZaiBeiBaoZhongMeiKeFaShengProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/guia"
+    },
+    {
+      "name": "UisDangShiTiBeiShaSiShi",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uis_dang_shi_ti_bei_sha_si_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/UisDangShiTiBeiShaSiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/guia/uis"
+    },
+    {
+      "name": "Jb1DangYouJianDianJiKongQiShiShiTiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jb_1_dang_you_jian_dian_ji_kong_qi_shi_shi_ti_de_wei_zhi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Jb1DangYouJianDianJiKongQiShiShiTiDeWeiZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/guia"
+    },
+    {
+      "name": "Sxcllc",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxcllc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SxcllcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Dlxt",
+      "type": "gui",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dlxt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/world/inventory/DlxtMenu.java",
+          "src/main/java/net/mcreator/wows/client/gui/DlxtScreen.java",
+          "src/main/java/net/mcreator/wows/network/DlxtButtonMessage.java"
+        ]
+      },
+      "path": "~/duanlian"
+    },
+    {
+      "name": "Dlxt1",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dlxt_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Dlxt1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/duanlian"
+    },
+    {
+      "name": "Dl",
+      "type": "command",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/DlCommand.java"
+        ]
+      },
+      "path": "~/duanlian"
+    },
+    {
+      "name": "Uis",
+      "type": "livingentity",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uis",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wows/models/item/uis_spawn_egg.json",
+          "src/main/java/net/mcreator/wows/client/renderer/UisRenderer.java",
+          "src/main/java/net/mcreator/wows/entity/UisEntity.java"
+        ]
+      },
+      "path": "~/guia/uis"
+    },
+    {
+      "name": "BlueslmieShiTiChuShiShengChengShi",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueslmie_shi_ti_chu_shi_sheng_cheng_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/BlueslmieShiTiChuShiShengChengShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/guia/blueslmie"
+    },
+    {
+      "name": "BlueslmieDangShiTiBeiShaSiShi",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueslmie_dang_shi_ti_bei_sha_si_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/BlueslmieDangShiTiBeiShaSiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/guia/blueslmie"
+    },
+    {
+      "name": "Blueslmie",
+      "type": "livingentity",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueslmie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/entity/BlueslmieEntity.java",
+          "src/main/resources/assets/wows/models/item/blueslmie_spawn_egg.json",
+          "src/main/java/net/mcreator/wows/client/renderer/BlueslmieRenderer.java"
+        ]
+      },
+      "path": "~/guia/blueslmie"
+    },
+    {
+      "name": "Setjy",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setjy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SetjyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Setjy2",
+      "type": "command",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setjy_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/Setjy2Command.java"
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Fwczt",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fwczt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/FwcztProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/duanlian"
+    },
+    {
+      "name": "Fwczt2",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fwczt_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Fwczt2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/duanlian"
+    },
+    {
+      "name": "FwcAnXiaAnJianShi",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fwc_an_xia_an_jian_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/FwcAnXiaAnJianShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/duanlian"
+    },
+    {
+      "name": "Fwc",
+      "type": "keybind",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fwc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/network/FwcMessage.java"
+        ]
+      },
+      "path": "~/duanlian"
+    },
+    {
+      "name": "Upsetlc",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upsetlc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/UpsetlcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Upset",
+      "type": "command",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upset",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/UpsetCommand.java"
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Lmgl",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmgl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/item/LmglItem.java",
+          "src/main/resources/assets/wows/models/item/lmgl.json"
+        ]
+      },
+      "path": "~/jineng"
+    },
+    {
+      "name": "Mujian",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mujian",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/item/MujianItem.java",
+          "src/main/resources/assets/wows/models/item/mujian.json"
+        ]
+      },
+      "path": "~/wuqi"
+    },
+    {
+      "name": "Jq",
+      "type": "particle",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jq",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/client/particle/JqParticle.java",
+          "src/main/resources/assets/wows/particles/jq.json"
+        ]
+      },
+      "path": "~/wuqi"
+    },
+    {
+      "name": "MujianDangShiTiHuiDongWuPinShi",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mujian_dang_shi_ti_hui_dong_wu_pin_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/MujianDangShiTiHuiDongWuPinShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/duanlian"
+    },
+    {
+      "name": "Sxbjjllc",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxbjjllc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SxbjjllcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxbjbllc",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxbjbllc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SxbjbllcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxzslc",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxzslc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SxzslcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui"
+    },
+    {
+      "name": "Sxshanbilc",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxshanbilc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SxshanbilcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui"
+    },
+    {
+      "name": "Uimx",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uimx",
+      "metadata": {
+        "return_type": "entity",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/UimxProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "EuiZhiShuZhi",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "Xuanze",
+      "type": "gui",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xuanze",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/network/XuanzeButtonMessage.java",
+          "src/main/java/net/mcreator/wows/world/inventory/XuanzeMenu.java",
+          "src/main/java/net/mcreator/wows/client/gui/XuanzeScreen.java"
+        ]
+      },
+      "path": "~/ui/xuanze"
+    },
+    {
+      "name": "Open",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/OpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ui/xuanze"
+    },
+    {
+      "name": "Dkcd",
+      "type": "command",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dkcd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/DkcdCommand.java"
+        ]
+      },
+      "path": "~/ui/xuanze"
+    },
+    {
+      "name": "Xuanze2",
+      "type": "gui",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xuanze_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/world/inventory/Xuanze2Menu.java",
+          "src/main/java/net/mcreator/wows/client/gui/Xuanze2Screen.java",
+          "src/main/java/net/mcreator/wows/network/Xuanze2ButtonMessage.java"
+        ]
+      },
+      "path": "~/ui/xuanze"
+    },
+    {
+      "name": "Zhdl",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zhdl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/ZhdlProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ui/xuanze"
+    },
+    {
+      "name": "Dkcd2lc",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dkcd_2lc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Dkcd2lcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/xuanze"
+    },
+    {
+      "name": "Dkcd2",
+      "type": "command",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dkcd_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/Dkcd2Command.java"
+        ]
+      },
+      "path": "~/ui/xuanze"
+    },
+    {
+      "name": "Lwdl",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwdl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/LwdlProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ui/xuanze"
+    },
+    {
+      "name": "D1",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/D1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/xuanze"
+    },
+    {
+      "name": "D2",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/D2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/xuanze"
+    },
+    {
+      "name": "D3",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/D3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/xuanze"
+    },
+    {
+      "name": "D4",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/D4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ui/xuanze"
+    },
+    {
+      "name": "C1",
+      "type": "gui",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/client/gui/C1Screen.java",
+          "src/main/java/net/mcreator/wows/world/inventory/C1Menu.java",
+          "src/main/java/net/mcreator/wows/network/C1ButtonMessage.java"
+        ]
+      },
+      "path": "~/ui/xuanze"
+    },
+    {
+      "name": "Chushi",
+      "type": "dimension",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chushi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wows/dimension/chushi.json",
+          "src/main/java/net/mcreator/wows/world/dimension/ChushiDimension.java",
+          "src/main/resources/data/wows/dimension_type/chushi.json"
+        ]
+      },
+      "path": "~/ui/xuanze"
+    },
+    {
+      "name": "C1lc",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_1lc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/C1lcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/xuanze"
+    },
+    {
+      "name": "Cilc2",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cilc_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Cilc2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ui/xuanze"
+    },
+    {
+      "name": "C1lc3",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_1lc_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/C1lc3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/xuanze"
+    },
+    {
+      "name": "C1chu",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_1chu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/C1chuProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/ui/xuanze"
+    },
+    {
+      "name": "LmglDangYouJianDianJiFangKuaiShiFangKuaiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmgl_dang_you_jian_dian_ji_fang_kuai_shi_fang_kuai_de_wei_zhi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/LmglDangYouJianDianJiFangKuaiShiFangKuaiDeWeiZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/jineng"
+    },
+    {
+      "name": "Lmgl2",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmgl_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wows/models/item/lmgl_2.json",
+          "src/main/java/net/mcreator/wows/item/Lmgl2Item.java"
+        ]
+      },
+      "path": "~/jineng"
+    },
+    {
+      "name": "Lmgl2DangYouJianDianJiKongQiShiShiTiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmgl_2_dang_you_jian_dian_ji_kong_qi_shi_shi_ti_de_wei_zhi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Lmgl2DangYouJianDianJiKongQiShiShiTiDeWeiZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/jineng"
+    },
+    {
+      "name": "EuiZhiShuZhi2",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_2",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "EuiZhiShuZhi3",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_3",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "EuiZhiShuZhi4",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_4",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "EuiZhiShuZhi5",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_5",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "EuiZhiShuZhi6",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_6",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "EuiZhiShuZhi7",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_7",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "EuiZhiShuZhi8",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_8",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "EuiZhiShuZhidangqianjingyan",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhidangqianjingyan",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhidangqianjingyanProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "EuiZhiShuZhishenjisuoxu",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhishenjisuoxu",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhishenjisuoxuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "Zcd",
+      "type": "gui",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zcd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/world/inventory/ZcdMenu.java",
+          "src/main/java/net/mcreator/wows/client/gui/ZcdScreen.java"
+        ]
+      },
+      "path": "~/ui/cd"
+    },
+    {
+      "name": "CaidanopenAnXiaAnJianShi",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caidanopen_an_xia_an_jian_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/CaidanopenAnXiaAnJianShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ui/cd"
+    },
+    {
+      "name": "Caidanopen",
+      "type": "keybind",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caidanopen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/network/CaidanopenMessage.java"
+        ]
+      },
+      "path": "~/ui/cd"
+    },
+    {
+      "name": "Lwjcgui",
+      "type": "gui",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwjcgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/network/LwjcguiButtonMessage.java",
+          "src/main/java/net/mcreator/wows/client/gui/LwjcguiScreen.java",
+          "src/main/java/net/mcreator/wows/world/inventory/LwjcguiMenu.java"
+        ]
+      },
+      "path": "~/lw"
+    },
+    {
+      "name": "Lwjx",
+      "type": "command",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwjx",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/LwjxCommand.java"
+        ]
+      },
+      "path": "~/lw"
+    },
+    {
+      "name": "Lwcd",
+      "type": "gui",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwcd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/client/gui/LwcdScreen.java",
+          "src/main/java/net/mcreator/wows/world/inventory/LwcdMenu.java"
+        ]
+      },
+      "path": "~/lw"
+    },
+    {
+      "name": "Lwjxcs",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwjxcs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/LwjxcsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/lw"
+    },
+    {
+      "name": "Lwjxcs2",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwjxcs_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Lwjxcs2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/lw"
+    },
+    {
+      "name": "Lwjx2",
+      "type": "command",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwjx_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/Lwjx2Command.java"
+        ]
+      },
+      "path": "~/lw"
+    },
+    {
+      "name": "Lwjcguiopen",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwjcguiopen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/LwjcguiopenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/lw"
+    },
+    {
+      "name": "Lwjcguiopenzl",
+      "type": "command",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwjcguiopenzl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/LwjcguiopenzlCommand.java"
+        ]
+      },
+      "path": "~/lw"
+    },
+    {
+      "name": "Sxgjlc",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxgjlc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SxgjlcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxgj",
+      "type": "command",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxgj",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/SxgjCommand.java"
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Xsfy",
+      "type": "command",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xsfy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/XsfyCommand.java"
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxxl",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxxl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SxxlProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxfylc",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxfylc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SxfylcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxxlz",
+      "type": "command",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxxlz",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/SxxlzCommand.java"
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "LwcdZhiShuZhi",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwcd_zhi_shu_zhi",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/LwcdZhiShuZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/lw"
+    },
+    {
+      "name": "Xs",
+      "type": "gui",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/client/gui/XsScreen.java",
+          "src/main/java/net/mcreator/wows/world/inventory/XsMenu.java"
+        ]
+      },
+      "path": "~/guia"
+    },
+    {
+      "name": "Zcqs",
+      "type": "biome",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zcqs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/world/biome/ZcqsBiome.java"
+        ]
+      },
+      "path": "~/ui"
+    },
+    {
+      "name": "Zsxt",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zsxt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/ZsxtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui"
+    },
+    {
+      "name": "Zs",
+      "type": "command",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/ZsCommand.java"
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxsmhf",
+      "type": "command",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxsmhf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/SxsmhfCommand.java"
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxsmhflc",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxsmhflc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SxsmhflcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxsmn",
+      "type": "command",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxsmn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/SxsmnCommand.java"
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxsmnlc",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxsmnlc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SxsmnlcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "EuiZhiShuZhi9",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_9",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "UiZhiShuZhi2",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ui_zhi_shu_zhi_2",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/UiZhiShuZhi2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "Sxxixue",
+      "type": "command",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxxixue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/SxxixueCommand.java"
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxxixuelc",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxxixuelc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SxxixuelcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxxixuebl",
+      "type": "command",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxxixuebl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/SxxixueblCommand.java"
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxxixuebllc",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxxixuebllc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SxxixuebllcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "EuiZhiShuZhi10",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_10",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "EuiZhiShuZhi11",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_11",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi11Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "Cj2",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cj_2",
+      "metadata": {
+        "return_type": "entity",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Cj2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/choujiang"
+    },
+    {
+      "name": "Cj1",
+      "type": "gui",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cj_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/world/inventory/Cj1Menu.java",
+          "src/main/java/net/mcreator/wows/client/gui/Cj1Screen.java"
+        ]
+      },
+      "path": "~/choujiang"
+    },
+    {
+      "name": "Cjoplc",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cjoplc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/CjoplcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/choujiang"
+    },
+    {
+      "name": "Cjop",
+      "type": "command",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cjop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/CjopCommand.java"
+        ]
+      },
+      "path": "~/choujiang"
+    },
+    {
+      "name": "Wpl",
+      "type": "gui",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wpl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/world/inventory/WplMenu.java",
+          "src/main/java/net/mcreator/wows/client/gui/WplScreen.java"
+        ]
+      },
+      "path": "~/ui/wpl"
+    },
+    {
+      "name": "Sxxlzlc",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxxlzlc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SxxlzlcProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxgjct",
+      "type": "command",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxgjct",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/SxgjctCommand.java"
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxgjctlc",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxgjctlc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SxgjctlcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxfyct",
+      "type": "command",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxfyct",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/SxfyctCommand.java"
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxfyctlc",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxfyctlc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SxfyctlcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "EuiZhiShuZhi12",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_12",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi12Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "EuiZhiShuZhi13",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_13",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi13Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "EuiZhiShuZhi14",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_14",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi14Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "EuiZhiShuZhi15",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_15",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi15Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "EuiZhiShuZhi16",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_16",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi16Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "EuiZhiShuZhi17",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_17",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi17Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "EuiZhiShuZhi18",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_18",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi18Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "Sxts",
+      "type": "command",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxts",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/SxtsCommand.java"
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxtslc",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxtslc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SxtslcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxtslc1",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxtslc_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Sxtslc1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxtslc2",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxtslc_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Sxtslc2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxtslc3",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxtslc_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Sxtslc3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxtslc4",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxtslc_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Sxtslc4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "WplDangZheGeJieMianDaKaiShi",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wpl_dang_zhe_ge_jie_mian_da_kai_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/WplDangZheGeJieMianDaKaiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wpl"
+    },
+    {
+      "name": "WplDangZheGeJieMianBeiGuanBi",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wpl_dang_zhe_ge_jie_mian_bei_guan_bi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/WplDangZheGeJieMianBeiGuanBiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wpl"
+    },
+    {
+      "name": "WplopenajAnXiaAnJianShi",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wplopenaj_an_xia_an_jian_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/WplopenajAnXiaAnJianShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ui/wpl"
+    },
+    {
+      "name": "Wplopenaj",
+      "type": "keybind",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wplopenaj",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/network/WplopenajMessage.java"
+        ]
+      },
+      "path": "~/ui/wpl"
+    },
+    {
+      "name": "Backpack",
+      "type": "item",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/item/inventory/BackpackInventoryCapability.java",
+          "src/main/java/net/mcreator/wows/item/BackpackItem.java",
+          "src/main/resources/assets/wows/models/item/backpack.json"
+        ]
+      },
+      "path": "~/ui/wpl"
+    },
+    {
+      "name": "Backpack1",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpack_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Backpack1Procedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/ui/wpl"
+    },
+    {
+      "name": "Bba",
+      "type": "command",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bba",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/BbaCommand.java"
+        ]
+      },
+      "path": "~/ui/wpl"
+    },
+    {
+      "name": "Backpackb",
+      "type": "block",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpackb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/block/entity/BackpackbBlockEntity.java",
+          "src/main/resources/assets/wows/models/block/backpackb.json",
+          "src/main/resources/assets/wows/blockstates/backpackb.json",
+          "src/main/java/net/mcreator/wows/block/BackpackbBlock.java",
+          "src/main/resources/assets/wows/models/item/backpackb.json"
+        ]
+      },
+      "path": "~/ui/wpl"
+    },
+    {
+      "name": "Q",
+      "type": "tool",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wows/models/item/q.json",
+          "src/main/java/net/mcreator/wows/item/QItem.java"
+        ]
+      },
+      "path": "~/lw"
+    },
+    {
+      "name": "EuiZhiShuZhi19",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_19",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi19Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "EuiZhiShuZhi112",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_112",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi112Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "Sxtslc5",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxtslc_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Sxtslc5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxtslc6",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxtslc_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Sxtslc6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxtslc7",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxtslc_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Sxtslc7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "UiZhiShuZhi4",
+      "type": "procedure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ui_zhi_shu_zhi_4",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/UiZhiShuZhi4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Q2lc",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_2lc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Q2lcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/lw"
+    },
+    {
+      "name": "Q2",
+      "type": "rangeditem",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "q_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/entity/Q2Entity.java",
+          "src/main/resources/assets/wows/models/item/q_2.json",
+          "src/main/java/net/mcreator/wows/item/Q2Item.java"
+        ]
+      },
+      "path": "~/lw"
+    },
+    {
+      "name": "Llq",
+      "type": "item",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "llq",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wows/models/item/llq.json",
+          "src/main/java/net/mcreator/wows/item/LlqItem.java"
+        ]
+      },
+      "path": "~/lw"
+    },
+    {
+      "name": "Lwjclc",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwjclc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/LwjclcProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/lw"
+    },
+    {
+      "name": "Sjsxlc",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sjsxlc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SjsxlcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sjsx",
+      "type": "command",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sjsx",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/SjsxCommand.java"
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "EuiZhiShuZhi20",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_20",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi20Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "EuiZhiShuZhi21",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_21",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi21Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "Sxtslc8",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxtslc_8",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Sxtslc8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxtslc9",
+      "type": "procedure",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxtslc_9",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Sxtslc9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxtslc10",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxtslc_10",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Sxtslc10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "UiZhiShuZhi5",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ui_zhi_shu_zhi_5",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/UiZhiShuZhi5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "Paotai",
+      "type": "item",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paotai",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/item/PaotaiItem.java",
+          "src/main/resources/assets/wows/models/item/paotai.json"
+        ]
+      },
+      "path": "~/jineng"
+    },
+    {
+      "name": "PaotaiDangYouJianDianJiKongQiShiShiTiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paotai_dang_you_jian_dian_ji_kong_qi_shi_shi_ti_de_wei_zhi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/PaotaiDangYouJianDianJiKongQiShiShiTiDeWeiZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/jineng"
+    },
+    {
+      "name": "LwcdZhiShuZhi2",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwcd_zhi_shu_zhi_2",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/LwcdZhiShuZhi2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/guia/uis"
+    },
+    {
+      "name": "LwcdZhiShuZhi3",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwcd_zhi_shu_zhi_3",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/LwcdZhiShuZhi3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LwcdZhiShuZhi4",
+      "type": "procedure",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwcd_zhi_shu_zhi_4",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/LwcdZhiShuZhi4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EuiZhiShuZhi22",
+      "type": "procedure",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_22",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi22Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "EuiZhiShuZhi23",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_23",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi23Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "Sxtslc11",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxtslc_11",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Sxtslc11Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxtslc12",
+      "type": "procedure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxtslc_12",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Sxtslc12Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxtslc13",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxtslc_13",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Sxtslc13Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "EuiZhiShuZhi24",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_24",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi24Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "JipaoAnXiaAnJianShi",
+      "type": "procedure",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jipao_an_xia_an_jian_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/JipaoAnXiaAnJianShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ui"
+    },
+    {
+      "name": "Jipao",
+      "type": "keybind",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jipao",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/network/JipaoMessage.java"
+        ]
+      },
+      "path": "~/ui"
+    },
+    {
+      "name": "Sxtslc14",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxtslc_14",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Sxtslc14Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "DlxtZhiShuZhi",
+      "type": "procedure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dlxt_zhi_shu_zhi",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/DlxtZhiShuZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/duanlian"
+    },
+    {
+      "name": "DlxtZhiShuZhi1",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dlxt_zhi_shu_zhi_1",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/DlxtZhiShuZhi1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/duanlian"
+    },
+    {
+      "name": "DlxtZhiShuZhi2",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dlxt_zhi_shu_zhi_2",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/DlxtZhiShuZhi2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/duanlian"
+    },
+    {
+      "name": "EuiZhiShuZhi25",
+      "type": "procedure",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_25",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi25Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "UiZhiShuZhitl",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ui_zhi_shu_zhitl",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/UiZhiShuZhitlProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "JipaoSongKaiAnJianShi",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jipao_song_kai_an_jian_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/JipaoSongKaiAnJianShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ui"
+    },
+    {
+      "name": "Tlxt2",
+      "type": "procedure",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tlxt_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Tlxt2Procedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "EuiZhiShuZhi26",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_26",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi26Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Fb",
+      "type": "rangeditem",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/item/FbItem.java",
+          "src/main/java/net/mcreator/wows/entity/FbEntity.java",
+          "src/main/resources/assets/wows/models/item/fb.json"
+        ]
+      },
+      "path": "~/wuqi"
+    },
+    {
+      "name": "FbDangTouSheWuSheZhongCiFangKuai",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fb_dang_tou_she_wu_she_zhong_ci_fang_kuai",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/FbDangTouSheWuSheZhongCiFangKuaiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/wuqi"
+    },
+    {
+      "name": "FbTouZhiWuFeiXingTick",
+      "type": "procedure",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fb_tou_zhi_wu_fei_xing_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/FbTouZhiWuFeiXingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/wuqi"
+    },
+    {
+      "name": "FbDangTouZhiWuJiZhongShiTiShi",
+      "type": "procedure",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fb_dang_tou_zhi_wu_ji_zhong_shi_ti_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/FbDangTouZhiWuJiZhongShiTiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/wuqi"
+    },
+    {
+      "name": "Ak",
+      "type": "item",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ak",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wows/models/item/ak.json",
+          "src/main/java/net/mcreator/wows/item/AkItem.java"
+        ]
+      },
+      "path": "~/wuqi"
+    },
+    {
+      "name": "AkDangYouJianDianJiKongQiShiShiTiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ak_dang_you_jian_dian_ji_kong_qi_shi_shi_ti_de_wei_zhi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/AkDangYouJianDianJiKongQiShiShiTiDeWeiZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/wuqi"
+    },
+    {
+      "name": "Sxtslc15",
+      "type": "procedure",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxtslc_15",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Sxtslc15Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxtslc16",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxtslc_16",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Sxtslc16Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "EuiZhiShuZhi27",
+      "type": "procedure",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eui_zhi_shu_zhi_27",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/EuiZhiShuZhi27Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/wb"
+    },
+    {
+      "name": "Sxtslc17",
+      "type": "procedure",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxtslc_17",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Sxtslc17Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Schh",
+      "type": "procedure",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "schh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SchhProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/guia/uis"
+    },
+    {
+      "name": "Sclw",
+      "type": "procedure",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sclw",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SclwProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/lw"
+    },
+    {
+      "name": "Zhlw1AnXiaAnJianShi",
+      "type": "procedure",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zhlw_1_an_xia_an_jian_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/Zhlw1AnXiaAnJianShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/lw"
+    },
+    {
+      "name": "Zhlw1",
+      "type": "keybind",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zhlw_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/network/Zhlw1Message.java"
+        ]
+      },
+      "path": "~/lw"
+    },
+    {
+      "name": "Lwjxopen",
+      "type": "command",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwjxopen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/LwjxopenCommand.java"
+        ]
+      },
+      "path": "~/lw"
+    },
+    {
+      "name": "Lwjxguiopen",
+      "type": "procedure",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lwjxguiopen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/LwjxguiopenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/lw"
+    },
+    {
+      "name": "Sxlookmb",
+      "type": "procedure",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxlookmb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SxlookmbProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui"
+    },
+    {
+      "name": "Sxlook",
+      "type": "command",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxlook",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/SxlookCommand.java"
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxset",
+      "type": "command",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxset",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/command/SxsetCommand.java"
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "Sxsetlc",
+      "type": "procedure",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sxsetlc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/SxsetlcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/ui/zhiling"
+    },
+    {
+      "name": "HtcDangYouJianDianJiKongQiShiShiTiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "htc_dang_you_jian_dian_ji_kong_qi_shi_shi_ti_de_wei_zhi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/HtcDangYouJianDianJiKongQiShiShiTiDeWeiZhiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/shenhun"
+    },
+    {
+      "name": "Htc",
+      "type": "tool",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "htc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wows/models/item/htc.json",
+          "src/main/java/net/mcreator/wows/item/HtcItem.java"
+        ]
+      },
+      "path": "~/shenhun"
+    },
+    {
+      "name": "Gjxt",
+      "type": "procedure",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gjxt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/GjxtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/sx"
+    },
+    {
+      "name": "Gjxtpd",
+      "type": "procedure",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gjxtpd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/GjxtpdProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ui/sx"
+    },
+    {
+      "name": "DragonDangYouJiShiTiShi",
+      "type": "procedure",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_dang_you_ji_shi_ti_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/procedures/DragonDangYouJiShiTiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dragon",
+      "type": "animatedentity",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wows/client/renderer/DragonRenderer.java",
+          "src/main/resources/data/wows/forge/biome_modifier/dragon_biome_modifier.json",
+          "src/main/java/net/mcreator/wows/entity/DragonEntity.java",
+          "src/main/java/net/mcreator/wows/entity/layer/DragonLayer.java",
+          "src/main/resources/assets/wows/models/item/dragon_spawn_egg.json",
+          "src/main/java/net/mcreator/wows/entity/model/DragonModel.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "ak",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "10.0"
+    },
+    {
+      "name": "atafter",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "bb",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "bb1",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "bb3",
+      "type": "blockstate",
+      "scope": "player_persistent",
+      "value": "Blocks.AIR.defaultBlockState()"
+    },
+    {
+      "name": "bjbl",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "bjjl",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "cssz",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "dl",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"\""
+    },
+    {
+      "name": "fs",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "fsbl",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "fy",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "fyct",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "fyts",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "gjct",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "gjst",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"\""
+    },
+    {
+      "name": "gjts",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "hdhf",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "hdz",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "hdznow",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "hdznow2",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "healthmax",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "healthnow",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "healthnow4",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "hj",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "isno",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "lever",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "lever2",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "levernow",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "levernow2",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "leverup",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "leverup2",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "liliang",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "ll",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "llhf",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "llnow",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "llnow2",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "lw1",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "lw1zt",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "lw2",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "lwdl",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "lws1",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "lws2",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "lwsf",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "lwsf2",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "mbhd",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "mbhd2",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "mbxl",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "mbxlmax",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "minjie",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "ms",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "nx",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "playersx",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "3.0"
+    },
+    {
+      "name": "sh",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "sh1",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "shanbi",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "smhf",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "10.0"
+    },
+    {
+      "name": "smts",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "start",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "tipo",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "tlhf",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "5.0"
+    },
+    {
+      "name": "tlhfs",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "tlmax",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "100.0"
+    },
+    {
+      "name": "tlnow2",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "tlxh",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "2.5"
+    },
+    {
+      "name": "tlxh2",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "wd",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "w"
+    },
+    {
+      "name": "wplopen",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "xixue",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "xixuebl",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "xueliangwb",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"\""
+    },
+    {
+      "name": "xz1",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "xz2",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "xz3",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "ydsd",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "zcsh",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "zcsh2",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "zdl",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "zhdl",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "zl",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "zs",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "zsxg",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "gui.wows.xuanze.label_zhan_hun_da_lu": "战魂大陆",
+      "gui.wows.eui.label_dang_qian_xiu_lian_jing_jie_varintegerlever": "当前修炼境界：\u003cVAR:integer:lever\u003e",
+      "gui.wows.xuanze.label_zan_bu_xuan_ze": "暂不选择",
+      "gui.wows.dlxt.button_fu_wo_cheng_duan_lian": "俯卧撑锻炼",
+      "item.wows.ak": "Ak",
+      "gui.wows.ui.label_ll": "ll",
+      "gui.wows.wpl.label_ku_zi": "护腿",
+      "gui.wows.lwjcgui.label_mz": "mz",
+      "gui.wows.eui.label_shan_bi_ji_lu_varintegershanbi": "闪避几率：\u003cVAR:integer:shanbi\u003e",
+      "gui.wows.c_1.label_tui_chu_you_xi": "退出游戏",
+      "gui.wows.eui.button_ti_sheng_jing_jie": "提升境界",
+      "entity.wows.dragon": "Dragon",
+      "gui.wows.xuanze_2.label_wu_dao": "上一步",
+      "item.wows.lmgl_2": "Lmgl 2",
+      "gui.wows.zcd.label_ren_wu_shu_xing": "人物属性",
+      "item.wows.fb": "Fb",
+      "gui.wows.dlxt.label_ti_po_varintegertipo": "体魄：\u003cVAR:integer:tipo\u003e",
+      "key.wows.wplopenaj": "bbdk",
+      "item.wows.htc": "§6撼山锤",
+      "gui.wows.eui.label_bao_ji_bei_lu_varintegerbjbl": "暴击倍率:\u003cVAR:integer:bjbl\u003e",
+      "entity.wows.blueslmie": "蓝色史莱姆",
+      "gui.wows.c_1.label_shuo_ming": "说明",
+      "gui.wows.wpl.label_xiong_jia": "胸甲",
+      "gui.wows.wpl.label_yao_dai": "腰带",
+      "key.wows.dkbb": "dkbb",
+      "gui.wows.eui.label_sheng_ming_varintegerhealth": "生命：",
+      "gui.wows.wpl.label_tou_jin": "头巾",
+      "gui.wows.eui.label_8": "8",
+      "item.wows.q_2": "Q 2",
+      "gui.wows.eui.label_7": "7",
+      "item.wows.jb_1": "噬金白虎精魂",
+      "gui.wows.eui.label_tlxh": "tlxh",
+      "gui.wows.lwjcgui.label_pz": "pz",
+      "key.wows.euion": "Euion",
+      "gui.wows.dlxt.label_min_jie_varintegerminjie": "敏捷：\u003cVAR:integer:minjie\u003e",
+      "gui.wows.ui.label_aa": "aa",
+      "gui.wows.lwjcgui.label_jue_xing_ling_wu": "觉醒灵武",
+      "item.wows.llq": "Llq",
+      "key.wows.zhlw_1": "Zhlw 1",
+      "gui.wows.xuanze_2.label_xian_dao": "仙道",
+      "gui.wows.eui.label_6": "6",
+      "gui.wows.eui.label_5": "5",
+      "key.wows.caidanopen": "Caidanopen",
+      "gui.wows.eui.label_4": "4",
+      "gui.wows.eui.label_zhen_shang_varintegerzs": "真伤：\u003cVAR:integer:zs\u003e",
+      "gui.wows.eui.label_3": "3",
+      "gui.wows.zcd.label_hun_po_cai_dan": "魂魄菜单",
+      "block.wows.backpackb": "Backpackb",
+      "gui.wows.eui.label_2": "2",
+      "gui.wows.eui.label_1": "1",
+      "gui.wows.wpl.label_tui_ju": "腿具",
+      "gui.wows.eui.label_llhf": "llhf",
+      "item.wows.paotai": "Paotai",
+      "gui.wows.xuanze.label_ling_wu_da_lu": "灵武大陆",
+      "item.wows.q": "Q",
+      "gui.wows.c_1.label_kai_shi_you_xi": "开始游戏",
+      "gui.wows.dlxt.label_li_liang_varintegerliliang": "力量:\u003cVAR:integer:liliang\u003e",
+      "gui.wows.lwjcgui.label_wx": "wx",
+      "gui.wows.wpl.label_xue_zi": "靴子",
+      "gui.wows.eui.label_bao_ji_ji_lu_varintegerbjjl": "暴击几率：",
+      "gui.wows.eui.label_af": "af",
+      "key.wows.jipao": "疾跑",
+      "gui.wows.eui.label_dang_qian_jing_yan_varintegerlevernow": "当前经验:\u003cVAR:integer:levernow\u003e",
+      "gui.wows.zcd.label_cai_dan": "菜单",
+      "gui.wows.eui.label_sheng_ji_suo_xu_varintegerleverup": "升级所需\u003cVAR:integer:leverup\u003e",
+      "gui.wows.wpl.label_wu_pin_lan": "物品栏",
+      "gui.wows.eui.label_gong_ji_li_varintegerak": "攻击力:",
+      "gui.wows.xuanze_2.label_yao_dao": "妖道",
+      "key.wows.fwc": "Fwc",
+      "gui.wows.eui.label_jing_jie_ti_sheng": "境界提升",
+      "gui.wows.eui.label_fang_yu_varintegerfy": "防御:",
+      "gui.wows.zcd.label_cai_dan_3": "菜单3",
+      "gui.wows.zcd.label_cai_dan_4": "菜单4",
+      "gui.wows.zcd.label_cai_dan_6": "菜单6",
+      "item.wows.mujian": "诸尘剑",
+      "item.wows.uis_spawn_egg": "噬金白虎 Spawn Egg",
+      "item.wows.blueslmie_spawn_egg": "蓝色史莱姆 Spawn Egg",
+      "entity.wows.uis": "噬金白虎",
+      "gui.wows.wpl.label_nei_jia": "内甲",
+      "item.wows.lmgl": "Lmgla",
+      "gui.wows.ui.label_ss": "ss",
+      "item.wows.dragon_spawn_egg": "Dragon Spawn Egg",
+      "gui.wows.xuanze.label_qing_xuan_ze_ni_de_lu": "请选择你的大陆",
+      "gui.wows.xuanze_2.label_xuan_ze_ni_de_dao": "选择你的道",
+      "gui.wows.wpl.label_tou_kui": "头盔",
+      "gui.wows.lwcd.label_lw": "lw1",
+      "gui.wows.eui.label_zhan_dou_li_varintegerzdl": "战斗力：\u003cVAR:integer:zdl\u003e",
+      "gui.wows.xuanze_2.label_mo_dao": "魔道",
+      "gui.wows.xs.button_empty": "",
+      "biome.wows.zcqs": "Zcqs",
+      "gui.wows.c_1.label_she_zhi": "设置",
+      "gui.wows.ui.label_varintegerhealth2varinteg": "\u003cVAR:integer:health2\u003e/\u003cVAR:integer:health\u003e",
+      "item.wows.backpack": "Backpack"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "ui",
+        "children": [
+          {
+            "name": "xuanze",
+            "children": []
+          },
+          {
+            "name": "cd",
+            "children": []
+          },
+          {
+            "name": "wb",
+            "children": []
+          },
+          {
+            "name": "wpl",
+            "children": []
+          },
+          {
+            "name": "XUELIANG",
+            "children": []
+          },
+          {
+            "name": "sx",
+            "children": []
+          },
+          {
+            "name": "zhiling",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "guia",
+        "children": [
+          {
+            "name": "uis",
+            "children": []
+          },
+          {
+            "name": "blueslmie",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "duanlian",
+        "children": []
+      },
+      {
+        "name": "jineng",
+        "children": []
+      },
+      {
+        "name": "wuqi",
+        "children": []
+      },
+      {
+        "name": "lw",
+        "children": []
+      },
+      {
+        "name": "choujiang",
+        "children": []
+      },
+      {
+        "name": "shenhun",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "wows",
+    "modName": "wows",
+    "version": "114514",
+    "description": "玄灵之界专用mod",
+    "author": "cycat",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "caidan1",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.wows",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

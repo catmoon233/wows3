@@ -1,0 +1,6 @@
+JVM:         E:\MCreator.2023.2.Windows.64bit\MCreator20232\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--inJar", "D:\wows3\build\fg_cache\mcp\1.19.2-20220805.130853\joined\6a7548297294898bcbebcf6c17bab4edf69ace9b\rename\output.jar", "--outJar", "D:\wows3\build\fg_cache\mcp\1.19.2-20220805.130853\joined\6a7548297294898bcbebcf6c17bab4edf69ace9b\AccessTransformer\output.jar", "--atFile", "D:\wows3\src\main\resources\META-INF\accesstransformer.cfg", "--atFile", "C:\Users\Administrator\AppData\Local\Temp\FG_ats_16895748104861438291.cfg"
+Classpath:   C:\Users\Administrator\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working Dir: D:\wows3\build\fg_cache\mcp\1.19.2-20220805.130853\joined\6a7548297294898bcbebcf6c17bab4edf69ace9b\AccessTransformer
+Main Class:  net.minecraftforge.accesstransformer.TransformerProcessor

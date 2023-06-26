@@ -1,0 +1,7 @@
+{
+  "parent": "wows:custom/model22",
+  "textures": {
+    "0": "wows:blocks/mujian",
+    "particle": "wows:items/ss"
+  }
+}

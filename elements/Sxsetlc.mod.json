@@ -1,0 +1,7 @@
+{
+  "_fv": 43,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"entity_set_scoreboard_score\"><value name=\"entity\"><block type=\"get_command_parameter_entity\"><field name=\"param\">mb</field></block></value><value name=\"score\"><block type=\"get_command_parameter_message\"><field name=\"param\">sm</field></block></value><value name=\"value\"><block type=\"get_command_parameter_number\"><field name=\"param\">nm</field></block></value></block></next></block><block type=\"math_number\" x=\"586\" y=\"111\"><field name=\"NUM\">1</field></block><block type=\"text\" x=\"525\" y=\"134\"><field name=\"TEXT\">custom_score</field></block><block type=\"entity_send_chat\" x=\"53\" y=\"218\"><value name=\"text\"><block type=\"text_join\"><mutation items=\"1\"></mutation></block></value><value name=\"actbar\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value></block><block type=\"entity_from_deps\" x=\"349\" y=\"269\"></block><block type=\"text\" x=\"661\" y=\"253\"><field name=\"TEXT\">Message</field></block><block type=\"entity_from_deps\" x=\"68\" y=\"301\"></block><block type=\"entity_get_scoreboard_score\" x=\"324\" y=\"303\"></block><block type=\"text\" x=\"545\" y=\"340\"><field name=\"TEXT\">custom_score</field></block><block type=\"entity_from_deps\" x=\"326\" y=\"420\"></block></xml>"
+  }
+}

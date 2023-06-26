@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wows:blocks/texture",
+    "up": "wows:blocks/texture",
+    "north": "wows:blocks/texture",
+    "east": "wows:blocks/texture",
+    "south": "wows:blocks/texture",
+    "west": "wows:blocks/texture",
+    "particle": "wows:blocks/texture"
+  },
+  "render_type": "solid"
+}

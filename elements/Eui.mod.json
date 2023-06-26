@@ -1,0 +1,476 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 96,
+    "inventoryOffsetY": 19,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "entitymodel",
+        "data": {
+          "entityModel": {
+            "name": "Uimx"
+          },
+          "scale": 50,
+          "rotationX": 0,
+          "followMouseMovement": false,
+          "x": 344,
+          "y": 184
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "caidan.png",
+          "use1Xscale": false,
+          "x": 9,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1",
+          "text": {
+            "fixedValue": "1",
+            "name": "EuiZhiShuZhi"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 19,
+          "y": 24
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_2",
+          "text": {
+            "fixedValue": "2",
+            "name": "EuiZhiShuZhi2"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 19,
+          "y": 34
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_3",
+          "text": {
+            "fixedValue": "3",
+            "name": "EuiZhiShuZhi3"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 19,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_4",
+          "text": {
+            "fixedValue": "4",
+            "name": "EuiZhiShuZhi4"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 19,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_5",
+          "text": {
+            "fixedValue": "5",
+            "name": "EuiZhiShuZhi5"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 19,
+          "y": 64
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_6",
+          "text": {
+            "fixedValue": "6",
+            "name": "EuiZhiShuZhi6"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 19,
+          "y": 74
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_7",
+          "text": {
+            "fixedValue": "7",
+            "name": "EuiZhiShuZhi7"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 19,
+          "y": 84
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_8",
+          "text": {
+            "fixedValue": "8",
+            "name": "EuiZhiShuZhi8"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 19,
+          "y": 204
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_smhf",
+          "text": {
+            "fixedValue": "smhf",
+            "name": "EuiZhiShuZhi9"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 19,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_9",
+          "text": {
+            "fixedValue": "9",
+            "name": "EuiZhiShuZhi10"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 19,
+          "y": 104
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_10",
+          "text": {
+            "fixedValue": "10",
+            "name": "EuiZhiShuZhi11"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 19,
+          "y": 114
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_11",
+          "text": {
+            "fixedValue": "11",
+            "name": "EuiZhiShuZhi12"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 19,
+          "y": 124
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_12",
+          "text": {
+            "fixedValue": "12",
+            "name": "EuiZhiShuZhi13"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 19,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_14",
+          "text": {
+            "fixedValue": "14",
+            "name": "EuiZhiShuZhi14"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 19,
+          "y": 144
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_15",
+          "text": {
+            "fixedValue": "15",
+            "name": "EuiZhiShuZhi15"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 19,
+          "y": 154
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_16",
+          "text": {
+            "fixedValue": "16",
+            "name": "EuiZhiShuZhi16"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 19,
+          "y": 164
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_17",
+          "text": {
+            "fixedValue": "17",
+            "name": "EuiZhiShuZhi17"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 19,
+          "y": 174
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_fsbl",
+          "text": {
+            "fixedValue": "fsbl",
+            "name": "EuiZhiShuZhi18"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 19,
+          "y": 184
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ll",
+          "text": {
+            "fixedValue": "ll",
+            "name": "EuiZhiShuZhi19"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 19,
+          "y": 194
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_llhf",
+          "text": {
+            "fixedValue": "llhf",
+            "name": "EuiZhiShuZhi112"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 149,
+          "y": 24
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_hdz",
+          "text": {
+            "fixedValue": "hdz",
+            "name": "EuiZhiShuZhi20"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 149,
+          "y": 34
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_hdzhf",
+          "text": {
+            "fixedValue": "hdzhf",
+            "name": "EuiZhiShuZhi21"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 149,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_tlmax",
+          "text": {
+            "fixedValue": "tlmax",
+            "name": "EuiZhiShuZhi22"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 149,
+          "y": 54
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_tlnow",
+          "text": {
+            "fixedValue": "tlhf",
+            "name": "EuiZhiShuZhi23"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 149,
+          "y": 64
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ydsd",
+          "text": {
+            "fixedValue": "ydsd",
+            "name": "EuiZhiShuZhi25"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 149,
+          "y": 74
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_tlxh",
+          "text": {
+            "fixedValue": "tlxh",
+            "name": "EuiZhiShuZhi26"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 149,
+          "y": 84
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_mianshan",
+          "text": {
+            "fixedValue": "mianshan",
+            "name": "EuiZhiShuZhi27"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 149,
+          "y": 94
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 10,
+      "sy": 10,
+      "ox": 16,
+      "oy": 16,
+      "snapOnGrid": true
+    }
+  }
+}

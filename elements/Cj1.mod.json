@@ -1,0 +1,44 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "entitymodel",
+        "data": {
+          "entityModel": {
+            "name": "Cj2"
+          },
+          "scale": 60,
+          "rotationX": 0,
+          "followMouseMovement": false,
+          "x": 201,
+          "y": 171
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "caidan.png",
+          "use1Xscale": false,
+          "x": 16,
+          "y": 16
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 10,
+      "sy": 10,
+      "ox": 20,
+      "oy": 20,
+      "snapOnGrid": true
+    }
+  }
+}

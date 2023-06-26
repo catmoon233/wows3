@@ -1,0 +1,15 @@
+{
+  "_fv": 43,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "LSHIFT",
+    "keyBindingName": "疾跑",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "JipaoAnXiaAnJianShi"
+    },
+    "onKeyReleased": {
+      "name": "JipaoSongKaiAnJianShi"
+    }
+  }
+}

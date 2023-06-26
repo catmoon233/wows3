@@ -1,0 +1,172 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_cdb",
+          "image": "cdb.png",
+          "hoveredImage": "cda.png",
+          "x": 70,
+          "y": 72
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_cdb1",
+          "image": "cdb.png",
+          "hoveredImage": "cda.png",
+          "x": 190,
+          "y": 72
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ren_wu_shu_xing",
+          "text": {
+            "fixedValue": "人物属性"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 94,
+          "y": 88
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_hun_po_cai_dan",
+          "text": {
+            "fixedValue": "魂魄菜单"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 206,
+          "y": 88
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_cdb2",
+          "image": "cdb.png",
+          "hoveredImage": "cda.png",
+          "x": 310,
+          "y": 72
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_cai_dan",
+          "text": {
+            "fixedValue": "菜单"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 334,
+          "y": 88
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_cdb3",
+          "image": "cdb.png",
+          "hoveredImage": "cda.png",
+          "x": 70,
+          "y": 144
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_cai_dan_3",
+          "text": {
+            "fixedValue": "菜单3"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 94,
+          "y": 152
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_cdb4",
+          "image": "cdb.png",
+          "hoveredImage": "cda.png",
+          "x": 190,
+          "y": 136
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_cai_dan_4",
+          "text": {
+            "fixedValue": "菜单4"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 206,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_cai_dan_6",
+          "text": {
+            "fixedValue": "菜单6"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 334,
+          "y": 144
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_cdb5",
+          "image": "cdb.png",
+          "hoveredImage": "cda.png",
+          "x": 310,
+          "y": 136
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 16,
+      "sy": 16,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

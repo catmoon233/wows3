@@ -1,0 +1,158 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "sss.png",
+          "use1Xscale": false,
+          "x": -561,
+          "y": -208
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_xuan_ze_ni_de_dao",
+          "text": {
+            "fixedValue": "选择你的道"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 195,
+          "y": 8
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_caidan1",
+          "image": "caidan1.png",
+          "hoveredImage": "caidan2.png",
+          "onClick": {
+            "name": "D1"
+          },
+          "x": 33,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_xian_dao",
+          "text": {
+            "fixedValue": "仙道"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 60,
+          "y": 62
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_caidan11",
+          "image": "caidan1.png",
+          "hoveredImage": "caidan2.png",
+          "onClick": {
+            "name": "D2"
+          },
+          "x": 132,
+          "y": 35
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_caidan12",
+          "image": "caidan1.png",
+          "hoveredImage": "caidan2.png",
+          "onClick": {
+            "name": "D3"
+          },
+          "x": 231,
+          "y": 35
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_caidan13",
+          "image": "caidan1.png",
+          "hoveredImage": "caidan2.png",
+          "onClick": {
+            "name": "D4"
+          },
+          "x": 330,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_mo_dao",
+          "text": {
+            "fixedValue": "魔道"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 159,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_yao_dao",
+          "text": {
+            "fixedValue": "妖道"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 258,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_wu_dao",
+          "text": {
+            "fixedValue": "上一步"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 357,
+          "y": 62
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

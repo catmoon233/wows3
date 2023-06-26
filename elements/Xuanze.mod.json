@@ -1,0 +1,102 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "sss.png",
+          "use1Xscale": false,
+          "x": -498,
+          "y": -307
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_qing_xuan_ze_ni_de_lu",
+          "text": {
+            "fixedValue": "请选择你的大陆"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 188,
+          "y": 7
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_caidan1",
+          "image": "caidan1.png",
+          "hoveredImage": "caidan2.png",
+          "onClick": {
+            "name": "Lwdl"
+          },
+          "x": 78,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ling_wu_da_lu",
+          "text": {
+            "fixedValue": "灵武大陆"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 96,
+          "y": 80
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_caidan11",
+          "image": "caidan1.png",
+          "hoveredImage": "caidan2.png",
+          "onClick": {
+            "name": "Zhdl"
+          },
+          "x": 294,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_zhan_hun_da_lu",
+          "text": {
+            "fixedValue": "战魂大陆"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 312,
+          "y": 80
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

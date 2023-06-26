@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "X",
+    "keyBindingName": "Zhlw 1",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "Zhlw1AnXiaAnJianShi"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+JVM:         E:\MCreator.2023.2.Windows.64bit\MCreator20232\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--strip", "--input", "D:\wows3\build\fg_cache\mcp\1.19.2-20220805.130853\joined\6a7548297294898bcbebcf6c17bab4edf69ace9b\AccessTransformer\output.jar", "--output", "D:\wows3\build\fg_cache\mcp\1.19.2-20220805.130853\joined\6a7548297294898bcbebcf6c17bab4edf69ace9b\SideStripper\output.jar", "--data", "D:\wows3\build\fg_cache\mcp\1.19.2-20220805.130853\joined\6a7548297294898bcbebcf6c17bab4edf69ace9b\SideStripper\string_data.sas"
+Classpath:   C:\Users\Administrator\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.6\mergetool-1.1.6-fatjar.jar
+Working Dir: D:\wows3\build\fg_cache\mcp\1.19.2-20220805.130853\joined\6a7548297294898bcbebcf6c17bab4edf69ace9b\SideStripper
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger
+Input:  D:\wows3\build\fg_cache\mcp\1.19.2-20220805.130853\joined\6a7548297294898bcbebcf6c17bab4edf69ace9b\AccessTransformer\output.jar
+Output: D:\wows3\build\fg_cache\mcp\1.19.2-20220805.130853\joined\6a7548297294898bcbebcf6c17bab4edf69ace9b\SideStripper\output.jar
+Data:   D:\wows3\build\fg_cache\mcp\1.19.2-20220805.130853\joined\6a7548297294898bcbebcf6c17bab4edf69ace9b\SideStripper\string_data.sas

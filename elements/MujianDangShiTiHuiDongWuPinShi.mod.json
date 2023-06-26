@@ -1,0 +1,7 @@
+{
+  "_fv": 43,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"spawn_particle\"><field name=\"particle\">CUSTOM:Jq</field><value name=\"x\"><block type=\"coord_x\"/></value><value name=\"y\"><block type=\"coord_y\"/></value><value name=\"z\"><block type=\"coord_z\"/></value><value name=\"xs\"><block type=\"entity_look_angle_x\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value><value name=\"ys\"><block type=\"entity_look_angle_y\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value><value name=\"zs\"><block type=\"entity_look_angle_z\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value></block></next></block><block type=\"math_number\" x=\"385\" y=\"192\"><field name=\"NUM\">0</field></block><block type=\"math_number\" x=\"503\" y=\"192\"><field name=\"NUM\">0</field></block><block type=\"math_number\" x=\"448\" y=\"197\"><field name=\"NUM\">1</field></block></xml>"
+  }
+}

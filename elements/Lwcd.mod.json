@@ -1,0 +1,95 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "caidan.png",
+          "use1Xscale": false,
+          "x": 14,
+          "y": 16
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_lw",
+          "text": {
+            "fixedValue": "lw1",
+            "name": "LwcdZhiShuZhi"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 30,
+          "y": 40
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_gj",
+          "text": {
+            "fixedValue": "gj",
+            "name": "LwcdZhiShuZhi3"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 30,
+          "y": 48
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_fy",
+          "text": {
+            "fixedValue": "fy",
+            "name": "LwcdZhiShuZhi2"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 30,
+          "y": 56
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sm",
+          "text": {
+            "fixedValue": "sm",
+            "name": "LwcdZhiShuZhi4"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 30,
+          "y": 64
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 16,
+      "sy": 16,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

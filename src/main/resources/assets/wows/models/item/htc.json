@@ -1,0 +1,7 @@
+{
+  "parent": "wows:custom/htc",
+  "textures": {
+    "0": "wows:blocks/htc",
+    "particle": "wows:items/mb"
+  }
+}

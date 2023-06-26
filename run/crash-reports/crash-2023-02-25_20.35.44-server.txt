@@ -1,0 +1,159 @@
+---- Minecraft Crash Report ----
+// I'm sorry, Dave.
+
+Time: 2023-02-25 20:35:44
+Description: Ticking entity
+
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.ai.attributes.AttributeInstance.setBaseValue(double)" because the return value of "net.minecraft.world.entity.LivingEntity.getAttribute(net.minecraft.world.entity.ai.attributes.Attribute)" is null
+	at net.mcreator.wows.procedures.AtsetProcedure.execute(AtsetProcedure.java:36) ~[%23188!/:?] {re:classloading}
+	at net.mcreator.wows.procedures.AtsetProcedure.onEntityTick(AtsetProcedure.java:19) ~[%23188!/:?] {re:classloading}
+	at net.mcreator.wows.procedures.__AtsetProcedure_onEntityTick_LivingTickEvent.invoke(.dynamic) ~[%23188!/:?] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%23107!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%23107!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%23107!/:?] {}
+	at net.minecraftforge.common.ForgeHooks.onLivingTick(ForgeHooks.java:273) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23182%23189!/:?] {re:classloading}
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2251) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading}
+	at net.minecraft.world.entity.Mob.tick(Mob.java:313) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.entity.animal.ShoulderRidingEntity.tick(ShoulderRidingEntity.java:31) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:658) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:457) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.lambda$tick$3(ServerLevel.java:323) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:53) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:303) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:866) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:806) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:84) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:654) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:244) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.mcreator.wows.procedures.AtsetProcedure.execute(AtsetProcedure.java:36) ~[%23188!/:?] {re:classloading}
+	at net.mcreator.wows.procedures.AtsetProcedure.onEntityTick(AtsetProcedure.java:19) ~[%23188!/:?] {re:classloading}
+	at net.mcreator.wows.procedures.__AtsetProcedure_onEntityTick_LivingTickEvent.invoke(.dynamic) ~[%23188!/:?] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%23107!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%23107!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%23107!/:?] {}
+	at net.minecraftforge.common.ForgeHooks.onLivingTick(ForgeHooks.java:273) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23182%23189!/:?] {re:classloading}
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2251) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading}
+	at net.minecraft.world.entity.Mob.tick(Mob.java:313) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.entity.animal.ShoulderRidingEntity.tick(ShoulderRidingEntity.java:31) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:658) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:457) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.lambda$tick$3(ServerLevel.java:323) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:53) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:303) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+-- Entity being ticked --
+Details:
+	Entity Type: minecraft:parrot (net.minecraft.world.entity.animal.Parrot)
+	Entity ID: 1
+	Entity Name: 鹦鹉
+	Entity's Exact location: 44.00, 66.00, -25.00
+	Entity's Block location: World: (44,66,-25), Section: (at 12,2,7 in 2,4,-2; chunk contains blocks 32,-64,-32 to 47,319,-17), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,-64,-512 to 511,319,-1)
+	Entity's Momentum: 0.00, 0.00, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:457) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.lambda$tick$3(ServerLevel.java:323) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:53) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:303) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:866) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:806) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:84) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:654) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:244) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 0 total; []
+	Chunk stats: 2209
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (32,67,-64), Section: (at 0,3,0 in 2,4,-4; chunk contains blocks 32,-64,-64 to 47,319,-49), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,-64,-512 to 511,319,-1)
+	Level time: 3 game time, 3 day time
+	Level name: 新的世界
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: true
+	Level weather: Rain time: 39322 (now: false), thunder time: 82725 (now: false)
+	Known server brands: forge
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:866) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:806) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:84) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:654) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:244) ~[forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.3, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 948952776 bytes (904 MiB) / 2082471936 bytes (1986 MiB) up to 4261412864 bytes (4064 MiB)
+	CPUs: 12
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+	Identifier: Intel64 Family 6 Model 165 Stepping 3
+	Microarchitecture: unknown
+	Frequency (GHz): 2.90
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: NVIDIA GeForce GTX 960
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 2048.00
+	Graphics card #0 deviceId: 0x1401
+	Graphics card #0 versionInfo: DriverVersion=31.0.15.2824
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 2.67
+	Memory slot #0 type: DDR4
+	Virtual memory max (MB): 20350.40
+	Virtual memory used (MB): 17563.20
+	Swap memory total (MB): 4096.00
+	Swap memory used (MB): 424.77
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Server Running: true
+	Player Count: 0 / 8; []
+	Data Packs: vanilla, mod:wows, mod:forge, mod:jade (incompatible)
+	World Generation: Stable
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: MOD_DEV
+	ModLauncher: 10.0.8+10.0.8+main.0ef7e830
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19.2-43.1.7.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19.2-43.1.7.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19.2-43.1.7.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19.2-43.1.7.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19.2-43.1.7.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.|Minecraft                     |minecraft                     |1.19.2              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		main                                              |wows                          |wows                          |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		                                                  |Forge                         |forge                         |43.1.7              |DONE      |Manifest: NOSIGNATURE
+		jade-324717-4096513_mapped_official_1.19.2.jar    |Jade                          |jade                          |8.6.0               |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 64f0b0ed-1d55-4971-955d-c37c1eb268aa
+	FML: 43.1
+	Forge: net.minecraftforge:43.1.7

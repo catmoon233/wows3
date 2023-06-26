@@ -1,0 +1,104 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "caidan.png",
+          "use1Xscale": false,
+          "x": 16,
+          "y": 17
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_st1",
+          "image": "st1.png",
+          "hoveredImage": "st21.png",
+          "onClick": {
+            "name": "Sclw"
+          },
+          "x": 61,
+          "y": 163
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_jue_xing_ling_wu",
+          "text": {
+            "fixedValue": "觉醒灵武"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 86,
+          "y": 173
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_pz",
+          "text": {
+            "fixedValue": "pz"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 156,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_wx",
+          "text": {
+            "fixedValue": "wx"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 156,
+          "y": 63
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_mz",
+          "text": {
+            "fixedValue": "mz"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 156,
+          "y": 73
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 10,
+      "sy": 10,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

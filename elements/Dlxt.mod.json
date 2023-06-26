@@ -1,0 +1,84 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 400,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_li_liang_varintegerliliang",
+          "text": {
+            "fixedValue": "力量:<VAR:integer:liliang>",
+            "name": "DlxtZhiShuZhi1"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 24,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ti_po_varintegertipo",
+          "text": {
+            "fixedValue": "体魄：<VAR:integer:tipo>",
+            "name": "DlxtZhiShuZhi2"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 24,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_min_jie_varintegerminjie",
+          "text": {
+            "fixedValue": "敏捷：<VAR:integer:minjie>",
+            "name": "DlxtZhiShuZhi"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 24,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_fu_wo_cheng_duan_lian",
+          "text": "俯卧撑锻炼",
+          "onClick": {
+            "name": "Fwczt"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 267,
+          "y": 35
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}
